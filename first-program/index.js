@@ -61,4 +61,13 @@ var fetchData = function () { return __awaiter(_this, void 0, void 0, function (
         }
     });
 }); };
-fetchData();
+// fetchData()
+// void --> when function doesnot return anything;
+function light() {
+    console.log('Light on');
+}
+// light()
+// Union types
+var id;
+id = 10;
+id = '10';

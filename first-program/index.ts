@@ -18,4 +18,15 @@ const fetchData = async()=>{
     console.log(data)
 }
 
-fetchData()
+// fetchData()
+
+// void --> when function doesnot return anything;
+function light():void{
+    console.log('Light on')
+}
+// light()
+
+// Union types
+let id : string | number
+id = 10
+id = '10'
